@@ -1,5 +1,12 @@
 {
-	"builds": [{"src": "package.json", "use": "@vercel/static-build@0.17.11"}],
+  "builds": [{
+    "src": "package.json",
+    "use": "@vercel/static-build@0.17.13",
+    "config": {
+      "zeroConfig": true,
+      "buildCommand": "gatsby build"
+    }
+  }],
   "headers": [
     {
       "source": "/(.*)",
