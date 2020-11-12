@@ -1,7 +1,7 @@
 {
   "builds": [{
     "src": "package.json",
-    "use": "@vercel/static-build@0.17.13",
+    "use": "@vercel/static-build@0.18.0",
     "config": {
       "zeroConfig": true,
       "buildCommand": "gatsby build"
